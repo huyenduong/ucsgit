@@ -68,7 +68,7 @@ formatblue.set_bg_color('blue')
 formatblue.set_bold()
 formatblue.set_font_color('white')
 formatblue.set_border()
-formatblue.set_font_color(13)
+formatblue.set_font_size(13)
 
 # Write some simple text for row 1.
 worksheet.write('A1', 'BLADE MODEL:',format)
