@@ -30,22 +30,6 @@ print blades[0].original_uuid
 for blade in blades:
 	print blade.model,blade.serial,blade.dn
 
-'''
-# Print result to CSV format file
-csv.register_dialect(
-    'mydialect',
-    delimiter = ',',
-    quotechar = '"',
-    doublequote = True,
-    skipinitialspace = True,
-    lineterminator = '\r\n',
-    quoting = csv.QUOTE_MINIMAL)
-
-with open('ucs_stat.csv', 'w') as mycsvfile:
-    thedatawriter = csv.writer(mycsvfile, dialect='mydialect')
-    for blade in blades:
-        thedatawriter.writerow(blade.model
-'''
 # Create Excel file
 
 # Create an new Excel file and add a worksheet.
