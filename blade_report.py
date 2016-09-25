@@ -1,7 +1,17 @@
 from ucsmsdk.ucshandle import UcsHandle
 import xlsxwriter
-import csv
 
+'''
++ Connect to UCSM
++ Extract physical blade information (model)
++ Write extracted information to blade.xlsx file
++ There are some images, if you don download images, please delete insert image command in this file
+Prerequisite:
++ Install xlsxwriter package for additional info how to http://xlsxwriter.readthedocs.io
++ Install UCSM Python SDK
+
+
+'''
 ucsm_ip = "172.16.185.144"
 admin = "ucspe"
 password = "ucspe"
